@@ -1,0 +1,26 @@
+<usereventscript scriptid="customscript_hitc_cache_demo_map_done_ue">
+  <description>Updates the cache on record edit or clears it upon record deletion.</description>
+  <isinactive>F</isinactive>
+  <name>HITC Cache Demo - Mapping - UE - Done</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/hitc-cache-demo/hitc_cache_demo_mapping_ue_done.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <allemployees>F</allemployees>
+      <alllocalizationcontexts>T</alllocalizationcontexts>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <executioncontext>USEREVENT|USERINTERFACE|WEBAPPLICATION|WORKFLOW</executioncontext>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>[scriptid=customrecord_county_sales_rep_mapping]</recordtype>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</usereventscript>
