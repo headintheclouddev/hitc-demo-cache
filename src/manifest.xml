@@ -1,0 +1,13 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>HITC Caching Demo</projectname>
+  <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="true">SERVERSIDESCRIPTING</feature>
+      <feature required="false">CRM</feature>
+    </features>
+    <objects>
+      <object>custentity_county</object>
+    </objects>
+  </dependencies>
+</manifest>

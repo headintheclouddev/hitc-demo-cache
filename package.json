@@ -1,0 +1,14 @@
+{
+  "name": "hitc-demo-cache",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@hitc/netsuite-types": "^2024.2.11",
+    "typescript": "^5.7.2"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/headintheclouddev/hitc-demo-cache"
+  },
+  "readme": "HITC N/cache module usage demo"
+}

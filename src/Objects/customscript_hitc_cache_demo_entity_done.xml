@@ -1,0 +1,26 @@
+<usereventscript scriptid="customscript_hitc_cache_demo_entity_done">
+  <description>Sets the sales rep based on cached county territory mapping</description>
+  <isinactive>F</isinactive>
+  <name>HITC Cache Demo - Customer UE - Done</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/hitc-cache-demo/hitc_cache_demo_customer_ue_done.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <allemployees>F</allemployees>
+      <alllocalizationcontexts>T</alllocalizationcontexts>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <executioncontext>USEREVENT|USERINTERFACE|WEBSERVICES|WORKFLOW</executioncontext>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>CUSTOMER</recordtype>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</usereventscript>
