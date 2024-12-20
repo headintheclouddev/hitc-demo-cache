@@ -8,6 +8,7 @@
     </features>
     <objects>
       <object>custentity_county</object>
+      <object>customrecord_county_sales_rep_mapping</object>
     </objects>
   </dependencies>
 </manifest>
